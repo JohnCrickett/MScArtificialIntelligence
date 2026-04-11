@@ -77,10 +77,18 @@ function htmlPage({ title, description, canonicalPath, body }) {
 <title>${escapeHtml(title)}</title>
 <meta name="description" content="${escapeHtml(description)}">
 <link rel="canonical" href="${escapeHtml(canonical)}">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="${escapeHtml(title)}">
 <meta property="og:description" content="${escapeHtml(description)}">
 <meta property="og:url" content="${escapeHtml(canonical)}">
 <meta property="og:type" content="website">
+<meta property="og:image" content="${SITE_URL}/img/ai-msc-degrees.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(title)}">
+<meta name="twitter:description" content="${escapeHtml(description)}">
+<meta name="twitter:image" content="${SITE_URL}/img/ai-msc-degrees.jpg">
 <style>${CSS}</style>
 </head>
 <body>
@@ -125,6 +133,14 @@ const indexHtml = htmlPage({
 // Write index
 fs.mkdirSync(distDir, { recursive: true });
 fs.writeFileSync(path.join(distDir, "index.html"), indexHtml);
+
+// Copy images
+const imgSrc = path.join(__dirname, "img");
+const imgDest = path.join(distDir, "img");
+fs.mkdirSync(imgDest, { recursive: true });
+for (const file of fs.readdirSync(imgSrc)) {
+  fs.copyFileSync(path.join(imgSrc, file), path.join(imgDest, file));
+}
 
 // Build course pages
 for (const c of courses) {
