@@ -16,7 +16,13 @@ for (const course of courses) {
   grouped[course.category].push(course);
 }
 
-let md = `# MSc Artificial Intelligence Degree Courses
+let md = `![image](img/ai-msc-degrees.jpg)
+
+<div align="center">
+<p align="center">by John Crickett</p>
+</div>
+
+# MSc Artificial Intelligence Degree Courses
 
 A curated directory of MSc Artificial Intelligence degree courses worldwide.
 
