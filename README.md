@@ -1,11 +1,8 @@
-![image](img/ai-msc-degrees.jpg)
-
-<div align="center">
-<p align="center">by John Crickett</p>
-</div>
-
 # MSc Artificial Intelligence Degree Courses
 
+A curated directory of MSc Artificial Intelligence degree courses worldwide.
+
+Website: [mastersartificialintelligence.fyi](https://mastersartificialintelligence.fyi)
 
 ## Full Time MSc AI (UK)
 
@@ -42,7 +39,6 @@
 * [UWE Bristol MSc Artificial Intelligence](https://courses.uwe.ac.uk/I4001/artificial-intelligence)
 * [Anglia Ruskin University MSc Artificial Intelligence](https://www.aru.ac.uk/study/postgraduate/artificial-intelligence) — based in Cambridge
 
-
 ## Full Time MSc AI (Europe)
 
 * [University of Amsterdam MSc Artificial Intelligence](https://www.uva.nl/shared-content/programmas/en/masters/artificial-intelligence/artificial-intelligence.html) — 2 years
@@ -52,11 +48,10 @@
 * [Utrecht University MSc Artificial Intelligence](https://www.uu.nl/en/masters/artificial-intelligence) — 2 years
 * [Maastricht University MSc Artificial Intelligence](https://www.maastrichtuniversity.nl/education/master/master-artificial-intelligence) — 2 years
 * [TU Delft MSc Data Science and Artificial Intelligence Technology](https://www.tudelft.nl/onderwijs/opleidingen/masters/dsait/msc-data-science-and-artificial-intelligence-technology) — 2 years, Netherlands
-* [KU Leuven MSc Artificial Intelligence](https://wms.cs.kuleuven.be/cs/studeren/master-artificial-intelligence) — 2 years, Belgium
+* [KU Leuven MSc Artificial Intelligence](https://wms.cs.kuleuven.be/cs/studeren/master-artificial-intelligence) — 1 year Advanced Master's (60 ECTS), Belgium
 * [Technical University of Munich MSc Data Science and AI](https://www.tum.de/en/studies/degree-programs/detail/data-engineering-and-analytics-master-of-science-msc) — 2 years, Germany (tuition-free for EU students)
 * [Politecnico di Milano MSc Artificial Intelligence and Robotics](https://www.polimi.it/en/programmes/laurea-magistrale-equivalent-to-master-of-science/artificial-intelligence) — 2 years, Italy
 * [ETH Zurich MAS in AI and Digital Technology](https://mas-aid.ethz.ch/) — part-time continuing education for managers, Switzerland
-
 
 ## Full Time MSc AI (USA)
 
@@ -68,14 +63,12 @@
 * [Johns Hopkins University MS in Artificial Intelligence](https://ep.jhu.edu/programs/artificial-intelligence/) — available on-campus and online
 * [Northwestern University MS in Artificial Intelligence](https://www.mccormick.northwestern.edu/artificial-intelligence/) — 15 months full-time
 
-
 ## Part Time MSc AI
 
 * [University of Oxford MSc Artificial Intelligence for Business](https://www.ox.ac.uk/admissions/graduate/courses/msc-AI-Business) — modular, taught in week-long blocks in Oxford. First intake October 2026.
 * [University of Edinburgh MSc Artificial Intelligence](https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence) — 2 or 3 year part-time options
 * [Anglia Ruskin University MSc Applied Artificial Intelligence](https://www.aru.ac.uk/study/postgraduate/applied-artificial-intelligence) — part-time distance learning, conversion course (no prior computing degree required)
 * [ETH Zurich MAS in AI and Digital Technology](https://mas-aid.ethz.ch/) — part-time, for managers with 5+ years experience
-
 
 ## Distance Learning / Online MSc AI
 
@@ -96,3 +89,7 @@
 * [Johns Hopkins University MS in Artificial Intelligence (Online)](https://ep.jhu.edu/programs/artificial-intelligence/) — fully online option available
 * [Udacity MSc Artificial Intelligence (via Woolf)](https://www.udacity.com/masters-artificial-intelligence) — fully online, accredited through Woolf (European accreditation, recognised in 60+ countries)
 * [ARU MSc Applied Artificial Intelligence (Distance Learning)](https://distancelearning.aru.ac.uk/course/technology/applied-artificial-intelligence-msc/) — 3 years part-time online, conversion course
+
+## Contributing
+
+Know a course we're missing or spot something out of date? Edit `data/courses.json` and open a pull request. The website and this README are generated automatically on merge.
