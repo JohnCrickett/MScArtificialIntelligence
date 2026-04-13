@@ -98,4 +98,4 @@ Website: [mastersartificialintelligence.fyi](https://mastersartificialintelligen
 
 ## Contributing
 
-Know a course we're missing or spot something out of date? Edit `data/courses.json` and open a pull request. The website and this README are generated automatically on merge.
+Know a course we're missing or spot something out of date? See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on editing the site, building locally, and submitting a pull request.

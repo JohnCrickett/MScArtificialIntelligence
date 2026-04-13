@@ -44,7 +44,7 @@ for (const category of CATEGORY_ORDER) {
 
 md += `## Contributing
 
-Know a course we're missing or spot something out of date? Edit \`data/courses.json\` and open a pull request. The website and this README are generated automatically on merge.\n`;
+Know a course we're missing or spot something out of date? See [CONTRIBUTING.md](CONTRIBUTING.md) for instructions on editing the site, building locally, and submitting a pull request.\n`;
 
 fs.writeFileSync('README.md', md);
 console.log(`Generated README.md with ${courses.length} courses`);

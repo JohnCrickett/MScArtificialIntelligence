@@ -27,8 +27,10 @@ header{background:#1a1a2e;color:#fff;padding:2.5rem 0}
 header h1{margin:0;font-size:1.75rem;font-weight:700;letter-spacing:-0.02em}
 header p{margin:0.5rem 0 0;color:#a0a0c0;font-size:0.95rem}
 main{padding:2rem 0 4rem}
-h2{font-size:1.25rem;margin:2.5rem 0 1rem;padding-bottom:0.4rem;border-bottom:2px solid #e8e8f0;color:#1a1a2e}
+h2{font-size:1.25rem;margin:2.5rem 0 1rem;padding-bottom:0.4rem;border-bottom:2px solid #e8e8f0;color:#1a1a2e;scroll-margin-top:1rem}
 h2:first-child{margin-top:0}
+.anchor{color:#c0c0c0;text-decoration:none;margin-left:0.4rem;font-weight:400}
+.anchor:hover{color:#2d5fce;text-decoration:none}
 .course-list{list-style:none;padding:0;margin:0}
 .course-item{padding:0.6rem 0;border-bottom:1px solid #f0f0f5}
 .course-item:last-child{border-bottom:none}
@@ -57,6 +59,13 @@ footer{border-top:1px solid #e8e8f0;padding:2rem 0;text-align:center;font-size:0
   h2{font-size:1.1rem}
 }
 `;
+
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 function escapeHtml(str) {
   if (!str) return "";
@@ -113,7 +122,8 @@ let indexBody = "";
 for (const category of CATEGORY_ORDER) {
   const items = grouped[category];
   if (!items) continue;
-  indexBody += `<h2>${escapeHtml(category)}<span class="count">(${items.length})</span></h2>\n<ul class="course-list">\n`;
+  const sectionId = slugify(category);
+  indexBody += `<h2 id="${sectionId}">${escapeHtml(category)}<span class="count">(${items.length})</span><a class="anchor" href="#${sectionId}" aria-label="Link to ${escapeHtml(category)}">#</a></h2>\n<ul class="course-list">\n`;
   for (const c of items) {
     indexBody += `<li class="course-item"><a class="course-link" href="/courses/${escapeHtml(c.slug)}/">${escapeHtml(c.name)}</a><span class="course-uni"> &mdash; ${escapeHtml(c.university)}</span>`;
     if (c.notes)
