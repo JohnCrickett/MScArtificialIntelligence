@@ -416,6 +416,19 @@
     "summary": "Based in Cambridge's tech hub, the programme combines machine learning, neural computing, deep learning and NLP with hands-on experience using real datasets. Benefits from industry partnerships including Intel's AI Academy."
   },
   {
+    "slug": "qmul-artificial-intelligence",
+    "name": "MSc Artificial Intelligence",
+    "university": "Queen Mary University of London",
+    "url": "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/",
+    "category": "Full Time MSc AI (UK)",
+    "notes": null,
+    "duration": "1 year full time or 2 years part time; both are September start",
+    "fees_domestic": "£13,250",
+    "fees_international": "£35,250",
+    "entry_requirements": "A 2:1 or above at undergraduate level in Electronic Engineering, Computer Science, Software Engineering, Information Technology, Mathematics or a related discipline. Applicants with a good 2:2 degree (55% or above) will be considered on an individual basis.",
+    "summary": "Our MSc in Artificial Intelligence opens doors to a thriving AI career. Explore key topics, such as agents, vision, and language, supported by leading research groups. With a strong emphasis on practical machine learning"
+  },
+  {
     "slug": "amsterdam-artificial-intelligence",
     "name": "MSc Artificial Intelligence",
     "university": "University of Amsterdam",
