@@ -44,6 +44,7 @@ Website: [mastersartificialintelligence.fyi](https://mastersartificialintelligen
 * [University of Bath MSc Artificial Intelligence](https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/msc-artificial-intelligence/)
 * [UWE Bristol MSc Artificial Intelligence](https://courses.uwe.ac.uk/I4001/artificial-intelligence)
 * [Anglia Ruskin University MSc Artificial Intelligence](https://www.aru.ac.uk/study/postgraduate/artificial-intelligence) — based in Cambridge
+* [Queen Mary University of London MSc Artificial Intelligence](https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/)
 
 ## Full Time MSc AI (Europe)
 
